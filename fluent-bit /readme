@@ -1,0 +1,3 @@
+helm upgrade --install elasticsearch elastic/elasticsearch -f values.yaml  -n logging --version 8.5.1
+helm upgrade  --install fluent-bit fluent/fluent-bit -f fluentbit-values.yaml -n logging --version 3.0.4 
+helm upgrade --install kibana elastic/kibana -f kibana-values.yaml  -n logging --version 8.5.1
