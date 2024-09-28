@@ -1,0 +1,5 @@
+```
+helm upgrade --install kibana elastic/kibana -f kibana-values.yaml  -n logging --version 8.5.1
+```
+
+Reference: https://github.com/elastic/helm-charts/blob/main/kibana/README.md
